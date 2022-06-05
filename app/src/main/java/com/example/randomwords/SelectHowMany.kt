@@ -1,0 +1,11 @@
+package com.example.randomwords
+
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+
+class SelectHowMany : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_select_how_many)
+    }
+}

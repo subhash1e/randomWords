@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:textIsSelectable="true"
+        android:focusable="true"
+        android:id="@+id/textView"
+        android:layout_margin="4dp"
+        android:minHeight="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#AFB2C4"
+        android:layout_weight="1"
+        android:textColor="#270B02"
+        android:gravity="center"
+        android:text="TextView" />
+</LinearLayout>

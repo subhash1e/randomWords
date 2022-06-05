@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="400dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav"
+        android:visibility="gone"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+
+        android:id="@+id/rvRandWords"
+        android:layout_width="384dp"
+        android:layout_height="700dp"
+        android:layout_margin="7dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_marginTop="14dp"
+        android:id="@+id/linearLayout"
+        android:layout_width="369dp"
+        android:layout_height="55dp"
+
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rvRandWords">
+
+        <ImageButton
+            android:id="@+id/buttonTheme"
+            android:layout_width="116dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_color_lens_24"
+            android:text="Button" />
+
+        <EditText
+            android:id="@+id/etMany"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Enter No."
+            android:inputType="phone"
+            android:textColor="#B68E8E" />
+
+        <ImageButton
+            android:id="@+id/buttonGenerate"
+            android:layout_width="116dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_replay_24" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
