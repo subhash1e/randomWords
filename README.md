@@ -21,7 +21,7 @@ https://github.com/subhash1e/randomWords/releases/download/app/app-debug.apk
 # adapter file
 
 
-`
+```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
 package com.example.randomwords
 
 import android.graphics.Color
@@ -108,4 +108,7 @@ class RWAdapter(list: MutableList<String>): RecyclerView.Adapter<RWAdapter.XVH>(
     }
 
 }
-`
+
+
+
+```````````````````````````````````````````````````````````````````````````````````````````````````````````````````
