@@ -12,6 +12,9 @@ https://github.com/subhash1e/randomWords/releases/download/app/app-debug.apk
 
 
 # screenshots
+![Screenshot_20220824-223332](https://user-images.githubusercontent.com/85139394/186540140-2df95d65-b79e-4833-90c3-87ee7f9ac5f4.png)
+![Screenshot_20220824-223351](https://user-images.githubusercontent.com/85139394/186540149-7c5cd04b-a15b-411e-adce-135bcf04c375.png)
+
 ![Screenshot_20220610-211540](https://user-images.githubusercontent.com/85139394/173104543-3db1849f-1f69-454e-a475-afe7868b8635.png)
 ![Screenshot_20220610-211551](https://user-images.githubusercontent.com/85139394/173104559-d98745df-ddba-46cb-a284-a05dc61234f4.png)
 ![Screenshot_20220610-211625](https://user-images.githubusercontent.com/85139394/173104564-2e44a4ff-d40e-4d7c-a71e-6cc0e2c6ef5e.png)
